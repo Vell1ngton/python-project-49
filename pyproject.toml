@@ -6,9 +6,7 @@ authors = ["Your Name <you@example.com>"]
 readme = "README.md"
 packages = [
   { include = "brain_games" },
-  { include = "brain_even" }
 ]
-
 
 [tool.poetry.dependencies]
 python = "^3.10"
