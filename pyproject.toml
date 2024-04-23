@@ -6,13 +6,20 @@ authors = ["Your Name <you@example.com>"]
 readme = "README.md"
 packages = [
   { include = "brain_games" },
+  { include = "brain_even" }
 ]
+
 
 [tool.poetry.dependencies]
 python = "^3.10"
+prompt = "^0.4.1"
 
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
+brain-even = "brain_games.scripts.brain_even:main"
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^7.0.0"
 
 [build-system]
 requires = ["poetry-core"]
