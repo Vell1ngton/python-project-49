@@ -11,3 +11,6 @@ CALCULATOR
 
 NOD
 <a href="https://asciinema.org/a/AL7N0KvzVpcQGNR2L6vlkbjWw" target="_blank"><img src="https://asciinema.org/a/AL7N0KvzVpcQGNR2L6vlkbjWw.svg" /></a>
+
+PROGRESSION
+<a href="https://asciinema.org/a/XseAL1sq3ATHIQGba6mQIDxLc" target="_blank"><img src="https://asciinema.org/a/XseAL1sq3ATHIQGba6mQIDxLc.svg" /></a>
