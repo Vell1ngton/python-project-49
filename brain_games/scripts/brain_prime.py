@@ -21,7 +21,8 @@ def prime():
             count += 1
             continue
         else:
-            return f"{answer} is wrong answer ;(. Correct answer was {result} \n Let's try again, {name}"
+            return (f"{answer} is wrong answer ;(."
+                    f" Correct answer was {result} \n Let's try again, {name}")
     return f"Congratulations, {name}!"
 
 
