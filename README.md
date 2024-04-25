@@ -14,3 +14,6 @@ NOD
 
 PROGRESSION
 <a href="https://asciinema.org/a/XseAL1sq3ATHIQGba6mQIDxLc" target="_blank"><img src="https://asciinema.org/a/XseAL1sq3ATHIQGba6mQIDxLc.svg" /></a>
+
+IS_PRIME
+<a href="https://asciinema.org/a/6LjwC5AOEwH2KUcXdY9zxmCkd" target="_blank"><img src="https://asciinema.org/a/6LjwC5AOEwH2KUcXdY9zxmCkd.svg" /></a>
