@@ -1,14 +1,13 @@
 #!/usr/bin/env python3.
 import prompt
 import random
+from brain_games.cli import welcome_user
 
 # flake8: noqa: C901
 
 
 def gcd():
-    print('Welcome to the Brain Games!')
-    name = prompt.string('May I have your name? ')
-    print(f'Hello, {name}')
+    name = welcome_user()
     print('Find the greatest common divisor of given numbers')
     count = 1
     while count != 4:

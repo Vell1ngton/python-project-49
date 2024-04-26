@@ -1,12 +1,11 @@
 #!/usr/bin/env python3.
 import prompt
 import random
+from brain_games.cli import welcome_user
 
 
 def progression():
-    print('Welcome to the Brain Games!')
-    name = prompt.string('May I have your name? ')
-    print(f'Hello, {name}')
+    name = welcome_user()
     print('What number is missing in the progression?')
     count = 1
     while count != 4:

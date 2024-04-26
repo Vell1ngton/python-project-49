@@ -2,14 +2,13 @@
 
 import random
 import prompt
+from brain_games.cli import welcome_user
 
 # flake8: noqa: C901
 
 
 def is_even():
-    print('Welcome to the Brain Games!')
-    name = prompt.string('May I have your name? ')
-    print(f'Hello, {name}')
+    name = welcome_user()
     print('Answer "yes" if the number is even, otherwise answer "no"')
     count = 1
     while count != 4:

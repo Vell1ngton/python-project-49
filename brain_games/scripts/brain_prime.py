@@ -2,12 +2,11 @@
 import prompt
 import random
 from brain_games.PRIME_LOGIC import is_prime
+from brain_games.cli import welcome_user
 
 
 def prime():
-    print('Welcome to the Brain Games!')
-    name = prompt.string('May I have your name? ')
-    print(f'Hello, {name}')
+    name = welcome_user()
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
     count = 1
     result = ''
