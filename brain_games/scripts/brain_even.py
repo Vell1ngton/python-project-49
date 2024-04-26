@@ -13,7 +13,7 @@ def is_even():
     count = 1
     while count != 4:
         n = random.randint(0, 100)
-        print(f'Question {n}')
+        print(f'Question: {n}')
         answer = prompt.string("Your answer: ")
         if n % 2 != 0 and answer == 'no' or n % 2 == 0 and answer == 'yes':
             print('Correct!')

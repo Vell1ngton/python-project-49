@@ -20,7 +20,7 @@ def calc():
             result = random_number1 - random_number2
         elif random_sign == '*':
             result = random_number1 * random_number2
-        print(f'Question {random_number1} {random_sign} {random_number2}')
+        print(f'Question: {random_number1} {random_sign} {random_number2}')
         answer = prompt.string("Your answer: ")
         if result == int(answer):
             print('Correct!')

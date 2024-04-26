@@ -3,6 +3,8 @@
 
 <a href="https://codeclimate.com/github/Vell1ngton/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/e3a6cd70fd0c680762bf/maintainability" /></a>
 
+<a href="https://codeclimate.com/github/Vell1ngton/python-project-49/test_coverage"><img src="https://api.codeclimate.com/v1/badges/e3a6cd70fd0c680762bf/test_coverage" /></a>
+
 BRAIN-GAMES
 <a href="https://asciinema.org/a/9kUIhcCkeNYgnZ14LeHZnIVso" target="_blank"><img src="https://asciinema.org/a/9kUIhcCkeNYgnZ14LeHZnIVso.svg" /></a>
 

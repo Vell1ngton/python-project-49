@@ -12,7 +12,7 @@ def prime():
     result = ''
     while count != 4:
         random_number = random.randint(1, 100)
-        print(f'Question {random_number}')
+        print(f'Question: {random_number}')
         answer = prompt.string("Your answer: ")
         result = is_prime(random_number)
         if answer == result:
