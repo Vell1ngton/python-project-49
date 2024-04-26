@@ -9,7 +9,6 @@ def prime():
     name = welcome_user()
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
     count = 1
-    result = ''
     while count != 4:
         random_number = random.randint(1, 100)
         print(f'Question: {random_number}')
@@ -21,7 +20,8 @@ def prime():
             continue
         else:
             return (f"{answer} is wrong answer ;(."
-                    f" Correct answer was {result} \n Let's try again, {name}")
+                    f" Correct answer was {result}. \n"
+                    f"Let's try again, {name}!")
     return f"Congratulations, {name}!"
 
 

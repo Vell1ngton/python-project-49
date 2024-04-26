@@ -8,7 +8,7 @@ from brain_games.cli import welcome_user
 
 def gcd():
     name = welcome_user()
-    print('Find the greatest common divisor of given numbers')
+    print('Find the greatest common divisor of given numbers.')
     count = 1
     while count != 4:
         spis = []
@@ -34,8 +34,8 @@ def gcd():
                 continue
             else:
                 return (f"{answer} is wrong answer ;(."
-                        f" Correct answer was {result} \n"
-                        f"Let's try again, {name}")
+                        f" Correct answer was {result}. \n"
+                        f"Let's try again, {name}!")
         else:
             continue
     return f"Congratulations, {name}!"

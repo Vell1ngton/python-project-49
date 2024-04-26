@@ -26,7 +26,8 @@ def progression():
             continue
         else:
             return (f"{answer} is wrong answer ;(."
-                    f" Correct answer was {znach} \n Let's try again, {name}")
+                    f" Correct answer was {znach}. \n"
+                    f"Let's try again, {name}!")
     return f"Congratulations, {name}!"
 
 

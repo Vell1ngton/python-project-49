@@ -9,7 +9,7 @@ from brain_games.cli import welcome_user
 
 def is_even():
     name = welcome_user()
-    print('Answer "yes" if the number is even, otherwise answer "no"')
+    print('Answer "yes" if the number is even, otherwise answer "no".')
     count = 1
     while count != 4:
         n = random.randint(0, 100)
@@ -22,17 +22,20 @@ def is_even():
         else:
             if n % 2 != 0 and answer == 'yes':
                 return (f"{answer} is wrong answer ;(."
-                        f" Correct answer was 'no'\n Let's try again, {name}'")
+                        f" Correct answer was 'no'.\n"
+                        f"Let's try again, {name}!'")
             if n % 2 == 0 and answer == 'no':
                 return (f"{answer} is wrong answer ;(."
-                        f" Correct answer was 'yes'\n Let's try again, {name}'")
+                        f" Correct answer was 'yes'.\n"
+                        f"Let's try again, {name}!'")
             if n % 2 != 0 and answer != 'yes' and answer != 'no':
                 return (f"{answer} is wrong answer ;(."
-                        f" Correct answer was 'no'\n Let's try again, {name}'")
+                        f" Correct answer was 'no'.\n"
+                        f"Let's try again, {name}!'")
             if n % 2 == 0 and answer != 'yes' and answer != 'no':
                 return (f"{answer} is wrong answer ;(."
-                        f" Correct answer was 'yes'\n"
-                        f" Let's try again, {name}'")
+                        f" Correct answer was 'yes'.\n"
+                        f"Let's try again, {name}!'")
     return f"Congratulations, {name}!"
 
 
