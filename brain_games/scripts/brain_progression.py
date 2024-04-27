@@ -18,7 +18,7 @@ def progression():
             spis.append(start)
         znach = spis.pop(index)
         spis.insert(index, '..')
-        print(f"Question: {spis}")
+        print("Question:", *spis, sep=' ')
         answer = prompt.string("Your answer: ")
         if int(answer) == znach:
             print('Correct!')
