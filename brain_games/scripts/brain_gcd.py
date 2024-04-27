@@ -33,12 +33,14 @@ def gcd():
                 count += 1
                 continue
             else:
-                return (f"{answer} is wrong answer ;(."
+                print(f"{answer} is wrong answer ;(."
                         f" Correct answer was {result}. \n"
                         f"Let's try again, {name}!")
+                break
         else:
             continue
-    return f"Congratulations, {name}!"
+    else:
+        print(f"Congratulations, {name}!")
 
 
 if __name__ == '__main__':

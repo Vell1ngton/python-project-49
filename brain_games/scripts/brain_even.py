@@ -21,22 +21,27 @@ def is_even():
             continue
         else:
             if n % 2 != 0 and answer == 'yes':
-                return (f"{answer} is wrong answer ;(."
+                print(f"{answer} is wrong answer ;(."
                         f" Correct answer was 'no'.\n"
                         f"Let's try again, {name}!'")
+                break
             if n % 2 == 0 and answer == 'no':
-                return (f"{answer} is wrong answer ;(."
+                print(f"{answer} is wrong answer ;(."
                         f" Correct answer was 'yes'.\n"
                         f"Let's try again, {name}!'")
+                break
             if n % 2 != 0 and answer != 'yes' and answer != 'no':
-                return (f"{answer} is wrong answer ;(."
+                print(f"{answer} is wrong answer ;(."
                         f" Correct answer was 'no'.\n"
                         f"Let's try again, {name}!'")
+                break
             if n % 2 == 0 and answer != 'yes' and answer != 'no':
-                return (f"{answer} is wrong answer ;(."
+                print(f"{answer} is wrong answer ;(."
                         f" Correct answer was 'yes'.\n"
                         f"Let's try again, {name}!'")
-    return f"Congratulations, {name}!"
+                break
+    else:
+        print(f"Congratulations, {name}!")
 
 
 if __name__ == '__main__':

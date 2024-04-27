@@ -27,10 +27,12 @@ def calc():
             count += 1
             continue
         else:
-            return (f"{answer} is wrong answer ;(."
-                    f" Correct answer was {result}. \n"
-                    f"Let's try again, {name}!")
-    return f"Congratulations, {name}!"
+            print(f"{answer} is wrong answer ;(."
+                  f" Correct answer was {result}. \n"
+                  f"Let's try again, {name}!")
+            break
+    else:
+        print(f"Congratulations, {name}!")
 
 
 if __name__ == '__main__':
